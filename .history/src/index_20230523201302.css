@@ -1,0 +1,266 @@
+
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-wrapper-lists {
+  display: flex;
+  list-style: none;
+}
+
+.nav-wrapper-list {
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.nav-wrapper-list-alt {
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.nav-link-alt {
+  text-decoration: none;
+  background-color: #00004D;
+  padding: 15px 40px;
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  transition: all 350ms ease;
+}
+
+.nav-link-alt:hover {
+  opacity: 0.7;
+}
+
+.nav-img {
+  width: 10%;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+#home {
+  height: 100vh;
+  margin-top: -35px;
+  
+}
+
+.main-title {
+  text-align: center;
+  font-size: 50px;
+  color: #00004D;
+  font-weight: 1000;
+}
+
+.main-desc {
+  text-align: center;
+  font-weight: 1000;
+  font-size: 25px;
+}
+
+.blue {
+  color: #00004D;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 500px;
+  height: 70px;
+  border-radius: 13px;
+  padding: 0 12px;
+  font-size: 35px;
+}
+
+.search-btn {
+  background-color: #00004D;
+  color: white;
+  margin-left: 12px;
+  padding: 18px 25px;
+  font-size: 35px;
+  font-weight: bolder;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  transition: all 350ms ease;
+}
+
+.search-btn1 {
+  background-color: #00004D;
+  color: white;
+  margin-left: 12px;
+  padding: 18px 25px;
+  font-size: 35px;
+  font-weight: bolder;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  transition: all 350ms ease;
+  animation: spinner 750ms infinite;
+}
+
+@keyframes spinner {
+  0% {
+      transform: rotate(0);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.search-btn:hover {
+  opacity: 0.7;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.main-img {
+  margin: 0 15px;
+  width: 20%;
+}
+
+.cars {
+  background-image: url(../src/assests/wall.png);
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-position: 10%;
+  padding: 20px 0;
+  padding-bottom: 30px;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.car-selector {
+  position: relative;
+}
+
+.car-title {
+  color: black;
+  font-size: 35px;
+}
+
+.car-search-btn {
+  position: absolute;
+  top: 10px;
+  color: #00004D;
+  right: 10px;
+  bottom: 20px;
+  font-size: 23px;
+}
+
+.car-section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 50px;
+}
+
+select {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #dcdfe6;
+  color: #606266;
+  height: 45px;
+  outline: none;
+  padding: 0 16px;
+  width: 100%;
+  max-width: 200px;
+  font-size: 16px;
+}
+
+.car-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.4);
+  width: 20%;
+  position: relative;
+  margin: 0 16px;
+}
+
+.car-power {
+  margin-left: 6px;
+}
+
+.car-price {
+  margin-left: 6px;
+}
+
+.car-models {
+  margin-left: 6px;
+}
+
+.car-img {
+  width: 100%;
+}
+
+
+.car-power-wrapper {
+  display: flex;
+  align-items: center;
+  color: gray;
+  
+}
+
+.car-container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 12px;
+}
+
+.car-price-wrapper {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.car-model-wrapper {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+

@@ -1,0 +1,33 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react'
+import Navbar from '../UI/Navbar'
+
+export default function Movies() {
+  return (
+    <main>
+        <section id='movies'>
+            <div className="row">
+                <Navbar />
+                <div className="movies-wrapper">
+                    <h1 className="movies-title">Browse movies</h1>
+                    <div className="movies-wrapper-search">
+                        <input type="text" placeholder='Search by Name, Make or Keyword ' />
+                        <FontAwesomeIcon icon='magnifying-glass' className='movies-search' />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div className="movies-main-wrapper">
+            <h2 className="movies-main-filter">Search results:</h2>
+            <select id="filter">
+                        <option value="" disabled selected>Sort</option>
+                        <option value="LOW_TO_HIGH">Year, Low to High</option>
+                        <option value="HIGH_TO_LOW">Year, High to Low</option>
+                        <option value="MOVIES">Movies</option>
+                        <option value="SERIES">Series</option>
+                    </select>
+        </div>
+    </main>
+    
+  )
+}

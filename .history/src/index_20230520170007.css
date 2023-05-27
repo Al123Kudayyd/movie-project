@@ -1,0 +1,36 @@
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.container {
+  padding: 32px 0;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-wrapper-lists {
+  display: flex;
+  list-style: none;
+}
+
+.nav-wrapper-list {
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.nav-wrapper-list-alt {
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.nav-img {
+  width: 10%;
+}
